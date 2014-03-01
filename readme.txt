@@ -21,12 +21,15 @@ Languages:
 * Russian
 
 == Installation ==
-Download plugin in .zip archive and install in Console. Then you need to update your permalinks to prevent 404 errors. Just go to Console -> Settings -> Permalinks and press "Save". You don't need to change it.
+
+* Download plugin in .zip archive and install in Console.
+* Activate the plugin.
+* Then you need to update your permalinks to prevent 404 errors. Just go to Console -> Settings -> Permalinks and press "Save". You don't need to change your permalinks.
 
 == Screenshots ==
-1. http://oriolo.ru/wp-content/uploads/2014/02/1-540x290.jpg
-2. http://oriolo.ru/wp-content/uploads/2014/02/3.jpg
-3. http://oriolo.ru/wp-content/uploads/2014/02/4.jpg
+1. Categories of products
+2. Products list
+3. Singe product
 
 == Frequently Asked Questions ==
 = There is 404 on /catalog or products page =
