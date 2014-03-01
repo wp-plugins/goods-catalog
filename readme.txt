@@ -12,6 +12,14 @@ The plugin creates simple catalog of goods, looking like Explorer in Windows.
 == Description ==
 The plugin creates simple catalog of goods, looking like Explorer in Windows. The main page of catalog is http://yoursite.com/catalog/. At the main page are located all parent categories of goods. At the category page firstly are located subcategories and then products of the category.
 
+* Use thumbnails to add images for products;
+* You can use Taxonomy Images plugin (https://wordpress.org/plugins/taxonomy-images/) to add images for categories of products;
+
+Languages:
+
+* English
+* Russian
+
 == Installation ==
 Download plugin in .zip archive and install in Console. Then you need to update your permalinks to prevent 404 errors. Just go to Console -> Settings -> Permalinks and press "Save". You don't need to change it.
 
