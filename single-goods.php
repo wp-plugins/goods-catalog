@@ -1,6 +1,11 @@
 <?php
+/*
+ * Template: Single product page
+ */
+
 get_header();
 
+echo '<div class="goods-catalog">';
 if (have_posts()) {
     while (have_posts()) {
         the_post();
@@ -24,6 +29,7 @@ if (have_posts()) {
         <?php
         // start functions
         $price = get_post_meta(get_the_ID(), 'gc_price', true);
+        $sku = get_post_meta(get_the_ID(), 'gc_sku', true);
         $descr = get_post_meta(get_the_ID(), 'gc_descr', true);
         ?>
         <article <?php post_class(); ?>>
@@ -41,36 +47,34 @@ if (have_posts()) {
                 }
                 echo '</div>';
                 ?>
-                <h2 class="entry-title"><?php the_title(); ?></h2>
-                <?php
-                if ((isset($price)) && ($price != '')) {
-                    echo "<div class=\"goods-price-single\">";
-                    echo __('Price:', 'gcat');
-                    echo " $price</div>";
-                }
-                if ((isset($descr)) && ($descr != '')) {
-                    echo "<div class=\"goods-descr-single\">$descr</div>";
-                }
-                // show category
-                $terms_list = wp_get_post_terms($post->ID, 'goods_category', array("fields" => "all"));
-                echo __('Categories:&nbsp;', 'gcat');
-                // count elements
-                $count_terms = count($terms_list);
-                foreach ($terms_list as $term) {
-                    $term_link = get_term_link($term, 'goods_categoty');
-                    if (is_wp_error($term_link))
-                        continue;
-                    // elements -1
-                    --$count_terms;
-                    // if > 0
-                    if ($count_terms != 0) {
-                        echo '<a href="' . $term_link . '">' . $term->name . '</a>, ';
-                    } else {
-                        // do not show comma at the last element
-                        echo '<a href="' . $term_link . '">' . $term->name . '</a>';
+                <div class="goods-info">
+                    <h2 class="entry-title"><?php the_title(); ?></h2>
+                    <?php
+                    if ((isset($price)) && ($price != '')) {
+                        echo "<p class=\"goods-price-single\">";
+                        echo __('Price:', 'gcat');
+                        echo " $price</p>";
                     }
-                }
-                ?>
+                    if ((isset($sku)) && ($sku != '')) {
+                        echo "<p class=\"goods-sku\">";
+                        echo __('SKU:', 'gcat');
+                        echo " $sku</p>";
+                    }
+                    if ((isset($descr)) && ($descr != '')) {
+                        echo "<p class=\"goods-descr-single\">$descr</p>";
+                    }
+
+                    // show category
+                    echo '<p>';
+                    get_goods_taxomonies('goods_category', $post->ID);
+                    echo '</p>';
+
+                    // show tags
+                    echo '<p>';
+                    get_goods_taxomonies('goods_tag', $post->ID);
+                    echo '</p>';
+                    ?>
+                </div>
             </header>
             <div class="clear"></div>
             <div class="entry-content">
@@ -88,6 +92,7 @@ if (have_posts()) {
     ?>
     <div class="navigation"><?php posts_nav_link(); ?></div>
     <?php
+    echo '</div>';
 } else {
     get_404_template();
 }
