@@ -1,7 +1,7 @@
 === Goods Catalog ===
 Contributors: oriolo
 Tags: catalog, catalogue, product, products, goods, product catalog, product catalogue, catalog of goods
-Stable tag: 0.4.5
+Stable tag: v0.4.6
 Requires at least: 3.3.0
 Tested up to: 3.8.1
 License: GNU General Public License v2 or later
@@ -37,6 +37,10 @@ Languages:
 You need to update your permalinks. Just go to Console -> Settings -> Permalinks and press "Save". You don't need to change it.
 
 == Changelog ==
+
+= v0.4.5 =
+
+* Localization bug fixed
 
 = v0.4.5 =
 
