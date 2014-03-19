@@ -1,7 +1,7 @@
 === Goods Catalog ===
 Contributors: oriolo
 Tags: catalog, catalogue, product, products, goods, product catalog, product catalogue, catalog of goods
-Stable tag: trunk
+Stable tag: 0.4.5
 Requires at least: 3.3.0
 Tested up to: 3.8.1
 License: GNU General Public License v2 or later
