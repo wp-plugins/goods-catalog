@@ -38,7 +38,7 @@ You need to update your permalinks. Just go to Console -> Settings -> Permalinks
 
 == Changelog ==
 
-= v0.4.5 =
+= v0.4.6 =
 
 * Localization bug fixed
 
