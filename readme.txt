@@ -3,7 +3,7 @@ Contributors: oriolo
 Tags: catalog, catalogue, product, products, goods, product catalog, product catalogue, catalog of goods
 Stable tag: 0.6.1
 Requires at least: 3.3.0
-Tested up to: 3.9-RC1
+Tested up to: 3.9
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
