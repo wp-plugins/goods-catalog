@@ -1,7 +1,7 @@
 === Goods Catalog ===
 Contributors: oriolo
 Tags: catalog, catalogue, product, products, goods, product catalog, product catalogue, catalog of goods
-Stable tag: 0.6.1
+Stable tag: 0.6.2
 Requires at least: 3.3.0
 Tested up to: 3.9
 License: GNU General Public License v2 or later
@@ -12,15 +12,23 @@ The plugin creates simple catalog of goods, looking like Explorer in Windows.
 == Description ==
 The plugin creates simple catalog of goods, looking like Explorer in Windows. The main page of catalog is http://yoursite.com/catalog/. At the main page are located all parent categories of goods. At the category page firstly are located subcategories and then products of the category.
 
+= Thumbnails for products and Categories =
+
 * Use thumbnails to add images for products;
 * You can use Taxonomy Images plugin (https://wordpress.org/plugins/taxonomy-images/) to add images for categories of products;
 
-You can also use special sidebar for the catalog, to show different widgets on the catalog and the other pages.
+= Special Sidebar =
+You can use special sidebar for the catalog, to show different widgets on the catalog and the other pages.
 
-Languages:
+= Shortcodes =
+
+* Use shortcode [goods_newest] to display the newest products anywhere in the site: on post or page. For example, to show 6 products, type: [goods_newest number=6]
+
+= Languages =
 
 * English
 * Russian
+* You can send me translation for your language, and I'll add it to the release.
 
 == Installation ==
 
@@ -50,6 +58,9 @@ Please use one of translation tools, listed here: http://codex.wordpress.org/Tra
 Also, you can send me your language files and I'll add them to the release.
 
 == Changelog ==
+
+= v0.6.2 =
+* Added shortcode [goods_newest]
 
 = v0.6.1 =
 

@@ -43,7 +43,7 @@ function get_tag_id($tag) {
 }
 
 function my_breadcrumb($id = null) {
-    echo '<a href=" ' . home_url() . ' ">' . __('Home') . '</a> &gt; ';
+    echo '<a href=" ' . home_url() . ' ">' . __('Home', 'gcat') . '</a> &gt; ';
     if (is_post_type_archive('goods')) {
         echo '<a href="';
         echo get_post_type_archive_link('goods');
