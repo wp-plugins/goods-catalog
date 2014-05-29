@@ -1,7 +1,7 @@
 === Goods Catalog ===
 Contributors: oriolo
 Tags: catalog, catalogue, product, products, goods, product catalog, product catalogue, catalog of goods
-Stable tag: 0.6.2
+Stable tag: trunk
 Requires at least: 3.3.0
 Tested up to: 3.9
 License: GNU General Public License v2 or later
@@ -28,6 +28,7 @@ You can use special sidebar for the catalog, to show different widgets on the ca
 
 * English
 * Russian
+* Spanish (thanks to netsis)
 * You can send me translation for your language, and I'll add it to the release.
 
 == Installation ==
@@ -59,7 +60,13 @@ Also, you can send me your language files and I'll add them to the release.
 
 == Changelog ==
 
+= v0.6.3 =
+
+* Added Spanish language (thanks to netsis)
+* Added shortcode [goods_categories] to display the list of goods categories (many thanks to Alexander Chizhov & Pineapple Design Studio)
+
 = v0.6.2 =
+
 * Added shortcode [goods_newest]
 
 = v0.6.1 =
