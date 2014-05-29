@@ -23,6 +23,7 @@ You can use special sidebar for the catalog, to show different widgets on the ca
 = Shortcodes =
 
 * Use shortcode [goods_newest] to display the newest products anywhere in the site: on post or page. For example, to show 6 products, type: [goods_newest number=6]
+* [goods_categories] to display the list of goods categories (many thanks to Alexander Chizhov & Pineapple Design Studio)
 
 = Languages =
 
