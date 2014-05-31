@@ -61,6 +61,10 @@ Also, you can send me your language files and I'll add them to the release.
 
 == Changelog ==
 
+= v0.6.4 =
+
+* Minor bug fix (breadcrumbs)
+
 = v0.6.3 =
 
 * Added Spanish language (thanks to netsis)
