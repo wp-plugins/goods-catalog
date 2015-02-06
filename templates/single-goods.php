@@ -19,9 +19,9 @@ if (have_posts()) {
             if (!is_search() || !is_404()) {
                 global $post;
                 if ($post != null) {
-                    my_breadcrumb($post->post_parent);
+                    gc_breadcrumbs($post->post_parent);
                 } else {
-                    my_breadcrumb();
+                    gc_breadcrumbs();
                 }
             } else {
                 print ' ';
@@ -58,14 +58,10 @@ if (have_posts()) {
                     }
 
                     // show category
-                    echo '<p>';
-                    get_goods_taxomonies('goods_category', $post->ID);
-                    echo '</p>';
+                    echo get_the_term_list ($post->ID, 'goods_category', '<p>' . __("Categories", "gcat") . ':&nbsp;', ', ', '</p>');
 
                     // show tags
-                    echo '<p>';
-                    get_goods_taxomonies('goods_tag', $post->ID);
-                    echo '</p>';
+                    echo get_the_term_list ($post->ID, 'goods_tag', '<p>' . __("Tags", "gcat") . ':&nbsp;', ', ', '</p>');
                     ?>
                 </div>
                 <div class="clear"></div>
