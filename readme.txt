@@ -44,7 +44,7 @@ You can send me translation for your language, and I'll add it to the release.
 
 = Get involved =
 
-You can contribute code and localizations to this plugin via GitHub: https://github.com/ierhyna/goods-catalog
+You can contribute code and localizations to this plugin via [GitHub](https://github.com/ierhyna/goods-catalog)
 
 == Installation ==
 
@@ -65,7 +65,7 @@ After the installation, please activate the plugin through the `Plugins` menu in
 
 = Install the dependencies =
 
-Please install Taxonomy Images plugin (https://wordpress.org/plugins/taxonomy-images/), that provides thumbnails for categories.
+Please install [Taxonomy Images plugin](https://wordpress.org/plugins/taxonomy-images/), that provides thumbnails for categories.
 
 = Basic configuration =
 
@@ -81,23 +81,23 @@ After you have the Goods Catalog installed, you need to flush the permalinks to 
 == Frequently Asked Questions ==
 
 = There is 404 on /catalog or products page =
-You need to update your permalinks. Just go to Console -> Settings -> Permalinks and press "Save". You don't need to change it.
+You need to update your permalinks. Just go to `Settings -> Permalinks` and press "Save". You don't need to change it.
 
 = There are no thumbnails for the categories =
-Please use Taxonomy Images plugin (https://wordpress.org/plugins/taxonomy-images/) to attach image to category, and than turn on "Show Thumbnails for categories" option in Gooods Catalog plugin settings.
+Please use [Taxonomy Images plugin](https://wordpress.org/plugins/taxonomy-images/) to attach image to category, and than turn on "Show Thumbnails for categories" option in Gooods Catalog plugin settings.
 
 = Can I use sidebar in the catalog pages? =
 Sure! There is special sidebar for the catalog. All widgets you put in there will be available only for catalog pages. Please, set up the sidebar in the plugin settings.
 
 = How can I translate Goods Catalog to my language? =
-Please use one of translation tools, listed here: http://codex.wordpress.org/Translating_WordPress#Translation_Tools to open .POT file and create your own translation. You can put your .PO and .MO files into /wp-content/languages/plugins/ and you will not loose the translations after plugin update.
+Please use one of translation tools, [listed in the Codex](http://codex.wordpress.org/Translating_WordPress#Translation_Tools) to open .POT file and create your own translation. You can put your .PO and .MO files into `/wp-content/languages/plugins/` and you will not loose the translations after plugin update.
 Also, you can send me your language files and I'll add them to the release.
 
 == Changelog ==
 
 = 0.9.1 =
 
-* Fixed bug with no featured image box in some themes (https://github.com/ierhyna/goods-catalog/issues/33)
+* Fixed bug with no featured image box in some themes, [issue #33](https://github.com/ierhyna/goods-catalog/issues/33)
 
 = 0.9.0 =
 
@@ -120,7 +120,7 @@ Also, you can send me your language files and I'll add them to the release.
 
 = 0.7 =
 
-* Updated breadcrumbs function. The last breadcrumb is not a link now. Bug fixes: issue #27 (https://github.com/ierhyna/goods-catalog/issues/27) 
+* Updated breadcrumbs function. The last breadcrumb is not a link now. Bug fixes: [issue #27](https://github.com/ierhyna/goods-catalog/issues/27) 
 * Removed function get_goods_taxomonies(). Using WordPress core function get_the_term_list() instead
 * Minor bug fixes: templates and shortcodes 
 
