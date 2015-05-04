@@ -6,6 +6,7 @@ Requires at least: 3.3.0
 Tested up to: 4.2.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Donate link: http://oriolo.ru/dev/goods-catalog/donate
 
 Goods Catalog provides a catalog of products organized into categories. It is easy to use and fully customizable.
 
