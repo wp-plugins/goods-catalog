@@ -11,9 +11,9 @@ Goods Catalog provides a catalog of products organized into categories. It is ea
 
 == Description ==
 
-*Goods Catalog* was created to help you organize a simple catalog of products on WordPress site.
+Goods Catalog was created to help you organize a simple catalog of products on WordPress site.
 
-Main features:
+= Main features =
 
 * Unlimited categories of products with unlimited depth of subcategories
 * Tumbnails for categories and products
@@ -21,7 +21,7 @@ Main features:
 * Shortcodes
 * Widgets
 
-The catalog created with *Goods Catalog* is easy to navigate: at the main catalog page are located all parent categories of products, at the category page firstly are located subcategories and then products of the category.
+The catalog created with Goods Catalog is easy to navigate: at the main catalog page are located all parent categories of products, at the category page firstly are located subcategories and then products of the category.
 
 = Shortcodes =
 
@@ -48,7 +48,7 @@ You can contribute code and localizations to this plugin via GitHub: https://git
 
 == Installation ==
 
-=== Install the Goods Catalog Plugin ===
+= Install the Goods Catalog Plugin =
 
 The easiest way to install Goods Catalog plugin is the automatic installation:
 * From WordPress admin panel, navigate to the `Plugins` menu and click `Add New`,
@@ -61,11 +61,11 @@ Or you can install the plugin manually:
 
 After the installation, please activate the plugin through the `Plugins` menu in WordPress.
 
-=== Install the dependencies ===
+= Install the dependencies =
 
 Please install Taxonomy Images plugin (https://wordpress.org/plugins/taxonomy-images/), that provides thumbnails for categories.
 
-=== Basic configuration ===
+= Basic configuration =
 
 After you have the Goods Catalog installed, you need to flush the permalinks to prevent 404 errors. Just go to `Settings -> Permalinks` and press "Save". You don't need to change your permalinks.
 
