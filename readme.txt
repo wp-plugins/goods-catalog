@@ -51,11 +51,13 @@ You can contribute code and localizations to this plugin via GitHub: https://git
 = Install the Goods Catalog Plugin =
 
 The easiest way to install Goods Catalog plugin is the automatic installation:
+
 * From WordPress admin panel, navigate to the `Plugins` menu and click `Add New`,
 * In the search field type `"Goods Catalog"` and click `Search Plugins`. Found Goods Catalog plugin in the list.
 * Click `Install Now`.
 
 Or you can install the plugin manually:
+
 * Download the plugin in `.zip` archive.
 * Upload unzipped `goods-catalog` folder to the `/wp-content/plugins/` directory.
 
