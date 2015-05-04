@@ -7,18 +7,21 @@ Tested up to: 4.2.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The plugin creates simple catalog of goods, looking like Explorer in Windows.
+Goods Catalog provides a catalog of products organized into categories. It is easy to use and fully customizable.
 
 == Description ==
-The plugin creates simple catalog of goods, looking like Explorer in Windows. The main page of catalog is http://yoursite.com/catalog/. At the main page are located all parent categories of goods. At the category page firstly are located subcategories and then products of the category.
 
-= Thumbnails for products and Categories =
+*Goods Catalog* was created to help you organize a simple catalog of products on WordPress site.
 
-* Use thumbnails to add images for products;
-* You can use Taxonomy Images plugin (https://wordpress.org/plugins/taxonomy-images/) to add images for categories of products;
+Main features:
 
-= Special Sidebar =
-You can use special sidebar for the catalog, to show different widgets on the catalog and the other pages.
+* Unlimited categories of products with unlimited depth of subcategories
+* Tumbnails for categories and products
+* The separate sidebar for the catalog, to show different widgets on the catalog and other pages.
+* Shortcodes
+* Widgets
+
+The catalog created with *Goods Catalog* is easy to navigate: at the main catalog page are located all parent categories of products, at the category page firstly are located subcategories and then products of the category.
 
 = Shortcodes =
 
@@ -29,24 +32,45 @@ You can use special sidebar for the catalog, to show different widgets on the ca
 
 = Languages =
 
+Goods Catalog is ready for localization to your language. Now it is available in the following languages:
+
 * English
 * Russian
 * Spanish (thanks to netsis)
 * French (thanks to Bertrand)
 * Italian (thanks to Massimo Gallarotti)
-* You can send me translation for your language, and I'll add it to the release.
 
-= Contributing and reporting bugs =
+You can send me translation for your language, and I'll add it to the release.
+
+= Get involved =
 
 You can contribute code and localizations to this plugin via GitHub: https://github.com/ierhyna/goods-catalog
 
 == Installation ==
 
-* Download plugin in .zip archive and install in Console.
-* Activate the plugin.
-* Then you need to update your permalinks to prevent 404 errors. Just go to Console -> Settings -> Permalinks and press "Save". You don't need to change your permalinks.
+=== Install the Goods Catalog Plugin ===
+
+The easiest way to install Goods Catalog plugin is the automatic installation:
+* From WordPress admin panel, navigate to the `Plugins` menu and click `Add New`,
+* In the search field type `"Goods Catalog"` and click `Search Plugins`. Found Goods Catalog plugin in the list.
+* Click `Install Now`.
+
+Or you can install the plugin manually:
+* Download the plugin in `.zip` archive.
+* Upload unzipped `goods-catalog` folder to the `/wp-content/plugins/` directory.
+
+After the installation, please activate the plugin through the `Plugins` menu in WordPress.
+
+=== Install the dependencies ===
+
+Please install Taxonomy Images plugin (https://wordpress.org/plugins/taxonomy-images/), that provides thumbnails for categories.
+
+=== Basic configuration ===
+
+After you have the Goods Catalog installed, you need to flush the permalinks to prevent 404 errors. Just go to `Settings -> Permalinks` and press "Save". You don't need to change your permalinks.
 
 == Screenshots ==
+
 1. Main page of catalog
 2. Page of category with subcategories and products
 3. Singe product page
