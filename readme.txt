@@ -3,7 +3,7 @@ Contributors: oriolo
 Tags: goods catalog, products catalog, catalog, products, goods
 Stable tag: trunk
 Requires at least: 3.3.0
-Tested up to: 4.2.1
+Tested up to: 4.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://oriolo.ru/dev/goods-catalog/donate
@@ -79,6 +79,7 @@ After you have the Goods Catalog installed, you need to flush the permalinks to 
 2. Page of category with subcategories and products
 3. Singe product page
 4. Admin page
+5. Settings page
 
 == Frequently Asked Questions ==
 
